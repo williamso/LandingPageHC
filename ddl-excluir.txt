@@ -1,0 +1,7 @@
+-- execute o código abaixo no MySQL para criar a tabela
+CREATE TABLE pre_cadastro (
+	id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+	email TINYTEXT,
+	data_cadastro DATETIME,
+	cid TINYTEXT
+);
